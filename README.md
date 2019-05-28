@@ -39,7 +39,7 @@ The following variables need to be defined, when using this module:
           disk_write_accelerator_enabled              = false
           network_interface_ids                       = []
           private_ip_address_allocation               = "Dynamic"
-          private_ip_addres                           = "your-private-ip"
+          private_ip_address                          = "your-private-ip"
           public_ip_address_id                        = "your-public-ip-address-id"
         }
 
