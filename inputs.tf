@@ -137,6 +137,34 @@ variable "network_interface_ids" {
   description = "Azure network interface ids"
 }
 
+variable "network_security_group_id" {
+  type = string
+  description = "Azure network security group id"
+}
+
+variable "subnet_id" {
+  type = string
+  description = "Azure network interface subnet id"
+}
+
+variable "private_ip_address_allocation" {
+  type = string
+  default = "Dynamic"
+  description = "Azure network interface private ip address allocation"
+}
+
+variable "private_ip_addres" {
+  type = string
+  default = null
+  description = "Azure network interface private ip address"
+}
+
+variable "public_ip_address_id" {
+  type = string
+  default = null
+  description = "Azure network interface public ip address id"
+}
+
 /**
  * Bootdiagnostics
  */
