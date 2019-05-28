@@ -13,10 +13,11 @@ Terraform module to setup a linux virtual compute resource on azure.
 The following variables need to be defined, when using this module:
 
         module "your-vm" {
-          source                                      = "https://github.com/andrelohmann/terraform-module-azure_vm.git"
+          source                                      = "github.com/andrelohmann/terraform-module-azure_vm"
           location                                    = "westeurope"
           environment                                 = "PRODUCTION"
           stack_name                                  = "your-vm-stack"
+          vm_name                                     = "your-vm-name"
           resource_group_name                         = "your-resource-group"
           computer_name                               = "vm-hostname"
           vm_size                                     = "Standard_B1ls"

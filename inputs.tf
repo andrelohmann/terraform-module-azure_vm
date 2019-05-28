@@ -34,7 +34,6 @@ variable "stack_name" {
 variable "vm_name" {
   type = string
   description = "Azure virtual machine resource name"
-  default = var.stack_name
 }
 
 variable "computer_name" {
