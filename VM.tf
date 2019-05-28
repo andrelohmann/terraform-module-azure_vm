@@ -18,7 +18,7 @@ resource "azurerm_virtual_machine" "vm" {
         publisher = var.os_publisher
         offer     = var.os_offer
         sku       = var.os_sku
-        version   = var.bastion_os_version
+        version   = var.os_version
     }
 
     os_profile {
