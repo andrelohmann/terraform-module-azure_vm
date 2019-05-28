@@ -152,7 +152,7 @@ variable "private_ip_address_allocation" {
   description = "Azure network interface private ip address allocation"
 }
 
-variable "private_ip_addres" {
+variable "private_ip_address" {
   type = string
   default = null
   description = "Azure network interface private ip address"
