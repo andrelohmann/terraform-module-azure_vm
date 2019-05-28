@@ -36,7 +36,7 @@ resource "azurerm_virtual_machine" "vm" {
 
     boot_diagnostics {
         enabled     = "true"
-        storage_uri = var.storage_uri
+        storage_uri = var.boot_diagnostics_uri
     }
 
     tags = local.vm_tags
