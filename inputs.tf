@@ -104,7 +104,7 @@ variable "disk_managed_disk_type" {
 
 variable "disk_size_gb" {
   type = number
-  default = 5
+  default = null
   description = "VM OS Disk size in GB"
 }
 
