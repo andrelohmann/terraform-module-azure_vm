@@ -23,6 +23,7 @@ The following variables need to be defined, when using this module:
           vm_tags                                     = { yourtag = "yourtag" }
           admin_user                                  = "vm-login-username"
           pub_key                                     = "ssh-rsa AAAA..."
+          boot_diagnostics_uri                        = "your-boot-diagnostics-storage-account-uri"
           # optional parameters
           os_publisher                                = "Canonical"
           os_offer                                    = "UbuntuServer"
@@ -34,7 +35,6 @@ The following variables need to be defined, when using this module:
           disk_size_gb                                = 5
           disk_write_accelerator_enabled              = false
           network_interface_ids                       = []
-          boot_diagnostics_uri                        = "your-boot-diagnostics-storage-account-uri"
         }
 
 ## outputs
