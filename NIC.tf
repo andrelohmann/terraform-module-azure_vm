@@ -1,5 +1,5 @@
 resource "azurerm_network_interface" "nic" {
-    name                              = var.stack_name
+    name                              = var.vm_name
     location                          = var.location
     resource_group_name               = var.resource_group_name
     network_security_group_id         = var.network_security_group_id
